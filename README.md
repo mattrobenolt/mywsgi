@@ -5,6 +5,12 @@ and a million ways to do everything. I have slimmed this down to a core set of b
 
 These options are very opinionated and how I've grown to like doing things.
 
+## Installation
+
+```sh
+pip install mywsgi
+```
+
 ## How do I
 
 There are two APIs for working with mywsgi. A Python API, and a CLI API.
