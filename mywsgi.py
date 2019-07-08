@@ -3,13 +3,18 @@ from __future__ import unicode_literals
 import os
 import sys
 
+try:
+    basestring
+except NameError:
+    basestring = str
+
 
 def prepare_environ(options, env):
     for k, v in options.items():
         if v is None:
             continue
         key = "UWSGI_" + k.upper().replace("-", "_")
-        if isinstance(v, str):
+        if isinstance(v, basestring):
             value = v
         elif v is True:
             value = "true"
