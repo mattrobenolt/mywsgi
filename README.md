@@ -1,0 +1,2 @@
+# mywsgi
+Opinionated uWSGI setup
