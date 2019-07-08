@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setup(
     name="mywsgi",
-    version="1.0.1",
+    version="1.0.2",
     author="Matt Robenolt",
     author_email="matt@ydekproductions.com",
     url="https://github.com/mattrobenolt/mywsgi",
