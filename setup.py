@@ -5,7 +5,7 @@ with open("README.md", encoding="utf8") as f:
 
 setup(
     name="mywsgi",
-    version="0.0.0",
+    version="1.0.0",
     author="Matt Robenolt",
     author_email="matt@ydekproductions.com",
     url="https://github.com/mattrobenolt/mywsgi",
@@ -18,6 +18,7 @@ setup(
     include_package_data=True,
     entry_points={"console_scripts": ["mywsgi = mywsgi:cli"]},
     classifiers=[
+        "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
         "Intended Audience :: System Administrators",
