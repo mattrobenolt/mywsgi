@@ -1,11 +1,11 @@
 from setuptools import setup
 
-with open("README.md", encoding="utf8") as f:
+with open("README.md") as f:
     long_description = f.read()
 
 setup(
     name="mywsgi",
-    version="1.0.0",
+    version="1.0.1",
     author="Matt Robenolt",
     author_email="matt@ydekproductions.com",
     url="https://github.com/mattrobenolt/mywsgi",
